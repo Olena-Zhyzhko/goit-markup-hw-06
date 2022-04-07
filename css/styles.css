@@ -568,6 +568,71 @@ address.address {
   fill: var(--light-color);
 }
 
+/* Форма подписки */
+.footer-signup {
+  margin-left: 93px;
+}
+
+.signup-form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.signup-mail {
+  display: block;
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+
+  background-color: var(--dark-bg-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+/* 
+.signup-mail:focus {
+  border-color: red;
+  /* border-color: rgba(255, 255, 255, 0.3); */
+} */
+
+.signup-mail::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.singup-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  padding: 10px 23px;
+
+  font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: none;
+}
+
+.singup-icon {
+  margin-left: 10px;
+}
+
 /* Модальное окно */
 
 .backdrop {
