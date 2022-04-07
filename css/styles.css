@@ -640,7 +640,7 @@ border: none;
   top: 0;
   left: 0;
 
-  width: 100vw;
+    width: 100vw;
   height: 100vh;
 
   background-color: rgba(0, 0, 0, 0.2);
@@ -661,6 +661,7 @@ border: none;
 
   min-width: 400px;
   min-height: 400px;
+  padding: 40px;
   background-color: var(--light-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -681,6 +682,19 @@ border: none;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+}
+
+.modal-title {
+ font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+
+color: #212121;
+}
+
+.modal-form {
+  display: inline-flex;
 }
 
 /* Портфолио */
