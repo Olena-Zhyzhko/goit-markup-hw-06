@@ -753,7 +753,8 @@ color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-input:focus,
-.modal-input:hover {
+.modal-input:hover,
+.modal-input:not(:placeholder-shown){
   border-color: var(--accent-color);
   cursor: pointer;
   
